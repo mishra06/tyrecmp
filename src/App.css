@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.categorycontainer::-webkit-scrollbar {
+  display: none;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  width: 150px; /* Fixed width for cards */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
