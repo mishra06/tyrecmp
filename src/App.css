@@ -43,7 +43,9 @@
   width: 150px; /* Fixed width for cards */
 }
 
-
+.element::-webkit-scrollbar {
+  width: 0;
+}
 
 .navbar {
   background-color: #ffffff;
