@@ -9,11 +9,11 @@ import Herosection from '../components/Herosection/Herosection'
 
 const ScreenSec = () => {
   return (
-    <div className='flex flex-col bg-[#f5f6f9] w-full justify-center items-center '>
+    <div className='flex flex-col bg-[#f5f6f9] w-12/12 justify-center items-center '>
       <div className='w-full'>
         <Navbar/>
       </div>
-      <div className='w-10/12 flex flex-col gap-4 mb-4'>
+      <div className='w-11/12 flex flex-col gap-4 mb-4'>
         <Herosection/>
         <PopularTyre/>
         <PopularVehicles/>

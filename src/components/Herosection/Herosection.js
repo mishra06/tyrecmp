@@ -22,7 +22,7 @@ const Herosection = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
     }, [autoSlide, autoSlideInterval]);
 
     return (
-        <div className='overflow-hidden relative w-95'>
+        <div className='overflow-hidden relative w-95 mt-5'>
             <div className='flex transition-transform ease-out duration-500' style={{ transform: `translateX(-${curr * 100}%)` }}>
                 {slides.map((s, index) => (
                     <img key={index} src={s} alt={`Slide ${index + 1}`} className="w-full h-auto" />
