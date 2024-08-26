@@ -21,7 +21,7 @@ function PopularVehicles() {
   }, [selectedButton,buttons]);
 
   return (
-    <div className="app flex flex-col gap-4 border-2 border-solid border-black-500 h-80 p-2 w-full">
+    <div className="app flex flex-col gap-4 border-2 border-solid border-black-500 h-80 p-2 w-full bg-[#ffffff]">
         <div className='flex justify-start items-center'>
             <p className='font-semibold text-base'>Tyres for Popular Vehicles</p>
         </div>

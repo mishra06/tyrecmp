@@ -414,19 +414,19 @@ function TyreDealer() {
 
 
   return (
-    <div className='flex justify-between h-48 border-2 border-solid border-black-500 w-full p-2'>
-      <div className='w-8/12 flex flex-col gap-3'>
+    <div className='flex flex-col md:flex-row h-[15rem] md:h-48 justify-between h-48 border-2 border-solid border-black-500 w-full p-2 bg-[#ffffff]'>
+      <div className='md:w-8/12 w-95 flex flex-col gap-3'>
         <div className='flex justify-start'>
             <p className='text-black-800 font-medium text-xl'>Search Tyre Dealer in Your City</p>
         </div>
-        <div className='flex gap-2 ml-2'>
+        <div className='flex gap-2 ml-2 md:flex-wrap '>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>New Delhi</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Ahmedabad</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Gurgaon</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Mumbai</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Kolkata</p>
         </div>
-        <div className='flex gap-2 items-center ml-2'>
+        <div className='flex gap-2 items-center ml-2 md:flex-wrap'>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Chennai</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Pune</p>
             <p className='h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Lucknow</p>
@@ -434,7 +434,7 @@ function TyreDealer() {
             <p className=' h-10 w-32 text-left pl-2 pt-2 border-2 border-solid border-black-500 text-blue-800 font-medium text-sm cursor-pointer'>Navi Mumbai</p>
         </div>
       </div>
-      <div className='w-3/12 flex justify-center items-center '>
+      <div className='w-[95%] md:w-3/12 flex justify-center items-center '>
         <div className='flex flex-col gap-3 w-full'>
             <div className='flex justify-start'>
                 <p >Search tyre in other city</p>

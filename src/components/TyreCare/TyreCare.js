@@ -43,7 +43,7 @@ const TyreCare = () => {
     ]
   return (
     <div className=' flex flex-col gap-1 min-h-[18.5rem] w-full border-2 border-solid border-black-500 bg-[#ffffff]'>
-      <div className='flex justify-start items-center p-2 border-2 border-solid border-red-500'>
+      <div className='flex justify-start items-center p-2'>
         <p className='text-xl font-medium'>Tyre Care</p>
       </div>
       <div className='card-container w-full max-h-64'>

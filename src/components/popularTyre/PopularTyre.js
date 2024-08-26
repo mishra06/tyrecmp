@@ -54,7 +54,7 @@ const PopularTyre = () => {
   ];
 
   return (
-    <div className="h-64 w-full border-2 border-solid border-black-500 ">
+    <div className="h-64 w-full border-2 border-solid border-black-500 bg-[#ffffff]">
       <div className="flex justify-start items-center">
         <p className="font-medium px-2 py-2">Popular Tyre Brands</p>
       </div>
