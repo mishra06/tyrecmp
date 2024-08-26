@@ -1,14 +1,13 @@
 
 import './App.css';
-// import Navbar from './components/Navbar/Navbar';
-// import PopularTyre from './components/popularTyre/PopularTyre';
+import Herosection from './components/Herosection/Herosection';
 import ScreenSec from './Screen/ScreenSec';
 
 function App() {
   return (
     <div className="App">
      <ScreenSec/>
-     
+     {/* <Herosection/> */}
       
     </div>
   );

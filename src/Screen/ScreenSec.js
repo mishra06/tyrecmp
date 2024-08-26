@@ -5,6 +5,7 @@ import PopularVehicles from '../components/Popular_Vehicles/PopularVehicles'
 import TyrePressure from '../components/Tyre Pressure/TyrePressure'
 import TyreDealer from '../components/TyreDealer/TyreDealer'
 import TyreCare from '../components/TyreCare/TyreCare'
+import Herosection from '../components/Herosection/Herosection'
 
 const ScreenSec = () => {
   return (
@@ -13,11 +14,13 @@ const ScreenSec = () => {
         <Navbar/>
       </div>
       <div className='w-10/12 flex flex-col gap-4 mb-4'>
+        <Herosection/>
         <PopularTyre/>
         <PopularVehicles/>
         <TyrePressure/>
         <TyreDealer/>
         <TyreCare/>
+        
       </div>
     </div>
   )
