@@ -4,10 +4,11 @@ import PopularTyre from '../components/popularTyre/PopularTyre'
 import PopularVehicles from '../components/Popular_Vehicles/PopularVehicles'
 import TyrePressure from '../components/Tyre Pressure/TyrePressure'
 import TyreDealer from '../components/TyreDealer/TyreDealer'
+import TyreCare from '../components/TyreCare/TyreCare'
 
 const ScreenSec = () => {
   return (
-    <div className='flex flex-col w-full justify-center items-center '>
+    <div className='flex flex-col bg-[#f5f6f9] w-full justify-center items-center '>
       <div className='w-full'>
         <Navbar/>
       </div>
@@ -16,6 +17,7 @@ const ScreenSec = () => {
         <PopularVehicles/>
         <TyrePressure/>
         <TyreDealer/>
+        <TyreCare/>
       </div>
     </div>
   )
