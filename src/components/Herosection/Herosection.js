@@ -4,10 +4,10 @@ import { ChevronLeft, ChevronRight } from "react-feather";
 const Herosection = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
     const slides = [
         "https://cdn.tyreplex.net/themes/moonlight/images/hm-banner-new.png?tr=q-50",
+        "https://cdn.tyreplex.net/themes/moonlight/images/banner-hm-new.jpg",
         "https://cdn.tyreplex.net/themes/moonlight/images/hm-banner-new.png?tr=q-50",
-        "https://cdn.tyreplex.net/themes/moonlight/images/hm-banner-new.png?tr=q-50",
-        "https://cdn.tyreplex.net/themes/moonlight/images/hm-banner-new.png?tr=q-50",
-        "https://cdn.tyreplex.net/themes/moonlight/images/hm-banner-new.png?tr=q-50"
+        "https://cdn.tyreplex.net/themes/moonlight/images/banner-hm.svg",
+        "https://cdn.tyreplex.net/themes/moonlight/images/banner-hm-new.jpg"
     ];
 
     const [curr, setCurr] = useState(0);
