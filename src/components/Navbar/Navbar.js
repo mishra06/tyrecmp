@@ -1,51 +1,17 @@
-// import React, {  } from 'react'
-// import { BsSearch } from "react-icons/bs";
-// import { FaUserAlt } from "react-icons/fa";
 
-
-// const Navbar = () => {
-
-
-//   return (
-//     <div className='flex justify-around bg-[#ffffff] h-20  p-1 m-0'>
-//          {/* first section  */}
-//       <div className='flex justify-between gap-5  items-center'>
-//         <div>
-//             <h1 className='text-4xl font-bold cursor-pointer'>Tyre<span className='text-red-800'>Plex</span></h1>
-//         </div>
-//         <div className='flex ml-5 rounded-[20px] border-gray-500 p-2 h-95 items-center gap-3 bg-[#f1f7ff]'>
-//                 <BsSearch size={20} />
-//                 <input className='outline-none h-full bg-[#f1f7ff]' type="text" placeholder="Search for products" />
-                
-//         </div>
-//         <div >
-//             <ul className='font-bold flex gap-4'  >
-//                 <li  className='cursor-pointer no-underline hover:underline hover:decoration-red-400'>Car Tyres</li>
-//                 <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Bike Tyres</li>
-//                 <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Tyre Pressure</li>
-//                 <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Commercial Tyres</li>
-//                 <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Accessories</li>
-//                 <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>More</li>
-//             </ul>
-//         </div>
-//       </div>
-
-//       {/* second section  */}
-//       <div className='flex items-center gap-1 cursor-pointer'>
-//         <span><FaUserAlt/></span>
-//         <button className='font-medium'>Login</button>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Navbar
-
+// import React, { useContext, useState } from 'react';
 import React, { useState } from 'react';
+// import { AuthContext } from '../../context/AuthContext';
 import { BsSearch } from "react-icons/bs";
 import { FaUserAlt } from "react-icons/fa";
+// import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
+
+  // const navigate = useNavigate();
+
+  // const { username, isLoggedIn } = useContext(AuthContext);
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState([
     { isOpen: false },
@@ -158,8 +124,8 @@ const Navbar = () => {
 
       {/* mobile menu */}
       {isMobileMenuOpen && (
-        <div className='md:hidden absolute top-20 left-0 w-full bg-white shadow-md'>
-          <ul className='font-bold flex flex-col gap-4 p-4'  >
+        <div className=' z-15 md:hidden absolute top-20 left-0 w-full bg-white shadow-md'>
+          <ul className=' z-25 font-bold flex flex-col gap-4 p-4'  >
             <li  className='cursor-pointer no-underline hover:underline hover:decoration-red-400'>Car Tyres</li>
             <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Bike Tyres</li>
             <li className='cursor-pointer no-underline hover:underline hover:decoration-red-500'>Tyre Pressure</li>
@@ -177,7 +143,7 @@ const Navbar = () => {
       {/* second section  */}
       <div className='hidden md:flex items-center gap-1 cursor-pointer'>
         <span><FaUserAlt/></span>
-        <button className='font-medium'>Login</button>
+        <button  className='font-medium'>Login</button>
       </div>
     </div>
   )

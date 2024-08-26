@@ -6,6 +6,7 @@ import TyrePressure from '../components/Tyre Pressure/TyrePressure'
 import TyreDealer from '../components/TyreDealer/TyreDealer'
 import TyreCare from '../components/TyreCare/TyreCare'
 import Herosection from '../components/Herosection/Herosection'
+import Footer from '../components/FooterSection/Footer'
 
 const ScreenSec = () => {
   return (
@@ -20,7 +21,7 @@ const ScreenSec = () => {
         <TyrePressure/>
         <TyreDealer/>
         <TyreCare/>
-        
+        <Footer/>
       </div>
     </div>
   )
